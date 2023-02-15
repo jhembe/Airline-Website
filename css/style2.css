@@ -241,3 +241,141 @@ div.section3{
     background-color: green;
 }
 
+
+@media only screen and (max-width: 768px) {
+
+    div.hero-section{
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .nav-bar{
+    height: auto;
+    width: 100%;
+    }
+    
+    nav ul li{
+    margin: 10px;
+    line-height: 2;
+    }
+    
+    div.other-hero{
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    }
+    
+    div.other-hero section.hero-words{
+    width: 100%;
+    height: auto;
+    align-self: center;
+    text-align: center;
+    padding: 20px;
+    }
+    
+    div.other-hero section.hero-words div.words h1{
+    font-size: 3rem;
+    }
+    
+    div.other-hero section.hero-words h3{
+    font-size: 1.5rem;
+    }
+    
+    section.logo{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    }
+    
+    .vintage{
+    height: auto;
+    flex-direction: column;
+    }
+    
+    .vintagepic{
+    width: 100%;
+    height: 50%;
+    }
+    
+    .take-anywhere{
+    height: auto;
+    flex-direction: column;
+    }
+    
+    .take-anywherepic{
+    width: 100%;
+    height: 50%;
+    }
+    
+    .explanation{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    .head{
+    font-size: 2rem;
+    }
+    
+    .foot{
+    font-size: 1.5rem;
+    }
+    
+    .card-container{
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    }
+    
+    .card-container .cards{
+    height: 100%;
+    width: 80%;
+    margin-bottom: 20px;
+    }
+    
+    /* Additions for menu list and transitions */
+    
+    .nav-bar img {
+    display: none; 
+    }
+    
+    .nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .nav-bar ul li {
+    margin: 0 10px;
+    list-style: none;
+    }
+    
+    .nav-bar ul li a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    }
+    
+    .nav-bar ul li a:hover {
+    color: #ffd700;
+    }
+    
+    section.logo img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    
+    }
